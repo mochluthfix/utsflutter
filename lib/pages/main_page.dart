@@ -2,6 +2,7 @@ import 'package:bottom_navy_bar/bottom_navy_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:tugasflutter/pages/account_page.dart';
 import 'package:tugasflutter/pages/counter_page.dart';
+import 'package:tugasflutter/pages/feed_page.dart';
 
 class MainPage extends StatefulWidget {
   const MainPage({super.key});
@@ -30,7 +31,7 @@ class _MainPageState extends State<MainPage> {
           children: [
             Container(color: Colors.red),
             const CounterPage(),
-            Container(color: Colors.green),
+            const FeedPage(),
             Container(color: Colors.brown),
             const AccountPage(),
           ],
